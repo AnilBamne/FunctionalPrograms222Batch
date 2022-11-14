@@ -7,7 +7,7 @@ namespace FunctionalPrograms222Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Functional Programs");
-            Console.WriteLine("Select the Program to execute\n\n1:Flip Coin \n2:Leap year\n3:Power of Two\n4:Harmonic Number\n5:Prime Factorization");
+            Console.WriteLine("Select the Program to execute\n\n1:Flip Coin \n2:Leap year\n3:Power of Two\n4:Harmonic Number\n5:Prime Factorization\n6:Quotient and Reminder\n7:Swap Two Numbers");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -30,6 +30,10 @@ namespace FunctionalPrograms222Batch
                 case 5:
                     PrimeFactorization primeFactorization = new PrimeFactorization();
                     primeFactorization.Factor();
+                    break;
+                case 6:
+                    ComputeQuotientAndReminder computeQuotientAndReminder = new ComputeQuotientAndReminder();
+                    computeQuotientAndReminder.computeQR();
                     break;
                 default:
                     break;

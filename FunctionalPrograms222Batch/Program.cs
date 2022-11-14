@@ -7,7 +7,7 @@ namespace FunctionalPrograms222Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Functional Programs");
-            Console.WriteLine("Select the Program to execute\n\n1:Flip Coin \n2:Leap year\n3:Power of Two\n4:Harmonic Number\n5:Prime Factorization\n6:Quotient and Reminder\n7:Swap Two Numbers");
+            Console.WriteLine("Select the Program to execute\n\n1:Flip Coin \n2:Leap year\n3:Power of Two\n4:Harmonic Number\n5:Prime Factorization\n6:Quotient and Reminder\n7:Swap Two Numbers\n8:Even Or Odd\n9:Vovel Or Consonent\n10:Largest Among Three Numbers");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -40,6 +40,8 @@ namespace FunctionalPrograms222Batch
                     swapTwoNumbers.SwapNums();
                     break;
                 case 8:
+                    EvenOrOdd obj = new EvenOrOdd();
+                    obj.checkEvenOdd();
                     break;
                 case 9:
                     break;

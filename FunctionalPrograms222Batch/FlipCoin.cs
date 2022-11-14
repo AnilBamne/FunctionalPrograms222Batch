@@ -8,7 +8,7 @@ namespace FunctionalPrograms222Batch
 {
     public class FlipCoin
     {
-        public static void FlipTheCoin()
+        public void FlipTheCoin()
         {
             double HeadCount = 0;
             double TailCount = 0;

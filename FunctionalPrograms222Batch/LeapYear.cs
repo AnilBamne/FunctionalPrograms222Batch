@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace FunctionalPrograms222Batch
             {
                 if((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0))
                 {
-                    Console.WriteLine("{0} is a Leap Year", year);
+                    Console.WriteLine("{0} is a Leap Year", year );
                 }
                 else
                 {

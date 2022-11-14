@@ -7,18 +7,21 @@ namespace FunctionalPrograms222Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Functional Programs");
-            Console.WriteLine("Select the Program to execute\n1:Flip Coin \n2:Leap year\n3:Power of Two\n");
+            Console.WriteLine("Select the Program to execute\n\n1:Flip Coin \n2:Leap year\n3:Power of Two\n");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
                 case 1:
-                    FlipCoin.FlipTheCoin();
+                    FlipCoin flip=new FlipCoin();
+                    flip.FlipTheCoin();
                     break;
                 case 2:
-                    LeapYear ly = new LeapYear();
-                    ly.checkLeapYear();
+                    LeapYear leapyear = new LeapYear();
+                    leapyear.checkLeapYear();
                     break;
                 case 3:
+                    PowerOfTwo power = new PowerOfTwo();
+                    power.computePower();
                     break;
                 default:
                     break;

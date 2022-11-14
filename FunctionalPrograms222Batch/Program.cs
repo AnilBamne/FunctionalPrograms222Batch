@@ -44,6 +44,8 @@ namespace FunctionalPrograms222Batch
                     obj.checkEvenOdd();
                     break;
                 case 9:
+                    VovelOrConsonent vc = new VovelOrConsonent();
+                    vc.checkVowel();
                     break;
                 case 10:
                     break;

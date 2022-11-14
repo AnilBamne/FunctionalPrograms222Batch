@@ -48,6 +48,8 @@ namespace FunctionalPrograms222Batch
                     vc.checkVowel();
                     break;
                 case 10:
+                    LargestOfThreeNumbers largestOfThreeNumbers = new LargestOfThreeNumbers();
+                    largestOfThreeNumbers.findLargest();
                     break;
                 default:
                     break;

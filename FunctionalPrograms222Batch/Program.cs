@@ -7,7 +7,7 @@ namespace FunctionalPrograms222Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Functional Programs");
-            Console.WriteLine("Select the Program to execute\n\n1:Flip Coin \n2:Leap year\n3:Power of Two\n");
+            Console.WriteLine("Select the Program to execute\n\n1:Flip Coin \n2:Leap year\n3:Power of Two\n4:Harmonic Number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -22,6 +22,10 @@ namespace FunctionalPrograms222Batch
                 case 3:
                     PowerOfTwo power = new PowerOfTwo();
                     power.computePower();
+                    break;
+                case 4:
+                    HarmonicNumber harmonicNumber = new HarmonicNumber();
+                    harmonicNumber.harmonicNum();
                     break;
                 default:
                     break;

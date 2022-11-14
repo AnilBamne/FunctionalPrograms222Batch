@@ -35,6 +35,16 @@ namespace FunctionalPrograms222Batch
                     ComputeQuotientAndReminder computeQuotientAndReminder = new ComputeQuotientAndReminder();
                     computeQuotientAndReminder.computeQR();
                     break;
+                case 7:
+                    SwapTwoNumbers swapTwoNumbers = new SwapTwoNumbers();
+                    swapTwoNumbers.SwapNums();
+                    break;
+                case 8:
+                    break;
+                case 9:
+                    break;
+                case 10:
+                    break;
                 default:
                     break;
             }

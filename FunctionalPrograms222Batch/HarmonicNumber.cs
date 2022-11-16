@@ -10,9 +10,12 @@ namespace FunctionalPrograms222Batch
     {
         public void harmonicNum()
         {
+            //Taking user input
             Console.WriteLine("Enter the value");
             int N = Convert.ToInt32(Console.ReadLine());
+            //variable initialization
             float harmonic = 1;
+            //computing harmonic number
             if(N > 0)
             {
                 for (int i = 2; i <= N; i++)

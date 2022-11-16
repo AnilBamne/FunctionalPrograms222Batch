@@ -11,8 +11,10 @@ namespace FunctionalPrograms222Batch
     {
         public void checkLeapYear()
         {
+            //taking user input
             Console.WriteLine("Enter a Year");
             int year=Convert.ToInt32(Console.ReadLine());
+            //computation
             if (year == 0)
             {
                 Console.WriteLine("Please enter a valid year");

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +23,6 @@ namespace FunctionalPrograms222Batch
             Quotiet=divident / deviser;
             Reminder=divident % deviser;
             Console.WriteLine("Quotient = {0} and Reminder = {1}",Quotiet,Reminder);
-
         }
     }
 }

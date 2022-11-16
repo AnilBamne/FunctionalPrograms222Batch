@@ -10,8 +10,10 @@ namespace FunctionalPrograms222Batch
     {
         public  void checkEvenOdd()
         {
+            //Tacking user input.
             Console.WriteLine("Enter  a number ");
             int Num = Convert.ToInt32(Console.ReadLine());
+            //performimng modulas operation to get reminder
             if (Num % 2 == 0)
             {
                 Console.WriteLine("the number is Even number");

@@ -10,8 +10,10 @@ namespace FunctionalPrograms222Batch
     {
         public void computePower()
         {
+            //Taking user input
             Console.WriteLine("Enter the limit (less than 32) to compute the power");
             int N=Convert.ToInt32(Console.ReadLine());
+            //computation
             if (N > 0 && N < 32)
             {
                 for (int i = 1; i <= N; i++)
